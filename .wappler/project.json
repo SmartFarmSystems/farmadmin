@@ -1,0 +1,37 @@
+{
+  "projectName": "Farm Admin",
+  "styleFile": "/css/style.css",
+  "assetsFolder": "/assets",
+  "designFramework": "bootstrap4",
+  "frameworks": [
+    {
+      "name": "jquery_slim_33",
+      "type": "cdn"
+    },
+    {
+      "name": "fontawesome_4",
+      "type": "cdn"
+    },
+    {
+      "name": "bootstrap4",
+      "type": "local"
+    },
+    {
+      "name": "appConnect",
+      "type": "local"
+    }
+  ],
+  "projectServerModel": "PHP",
+  "activeTarget": "Local Server",
+  "useRouting": true,
+  "addBase": true,
+  "projectType": "web",
+  "targets": [
+    {
+      "access": "local",
+      "name": "Local Server",
+      "remoteURL": "http://localhost:8888/smartfarm/",
+      "localFolder": "file:///Applications/MAMP/htdocs/farm_admin"
+    }
+  ]
+}
