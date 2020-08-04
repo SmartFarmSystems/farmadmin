@@ -1,6 +1,6 @@
 {
   "projectName": "Farm Admin",
-  "styleFile": "/css/style.css",
+  "styleFile": "/assets/css/bootstrap.min.css",
   "assetsFolder": "/assets",
   "designFramework": "bootstrap4",
   "frameworks": [
@@ -33,5 +33,6 @@
       "remoteURL": "http://localhost:8888/smartfarm/",
       "localFolder": "file:///Applications/MAMP/htdocs/farm_admin"
     }
-  ]
+  ],
+  "routingHandler": "apache"
 }
